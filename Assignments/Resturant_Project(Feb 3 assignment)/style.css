@@ -1,0 +1,121 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-image: url("background_img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  position: relative;
+  top: 20px;
+  margin: 20px;
+}
+
+.navbar {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+nav ul {
+  padding: 1.2rem;
+  margin: 1.5rem;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0.5rem;
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 20px;
+  color: #fbc02d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: #ccccff;
+}
+
+.right-btn {
+  display: flex;
+  margin: 2rem 0px;
+
+  padding: 1rem;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background-color: #ff0000;
+  border-radius: 10px;
+  width: 7vw;
+  height: 5vh;
+  outline: none;
+  color: white;
+  font-weight: bold;
+}
+.content {
+  padding: 20px;
+  font-size: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bolder;
+  color: #fbc02d;
+  margin: 1rem;
+}
+span {
+  margin: 50px;
+}
+.span-1 {
+  margin: 15px;
+}
+.center-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 100%;
+}
+.btn-2 {
+  border: none;
+  outline: none;
+  background: #ff0000;
+  color: white;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.btn-2:hover {
+  transition: 0.7s ease-in-out;
+  background-color: #ccccff;
+  color: darkorange;
+}
+.img-style {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 20px;
+}
+.school-logo {
+  margin: 1rem;
+  padding: 1rem;
+}
