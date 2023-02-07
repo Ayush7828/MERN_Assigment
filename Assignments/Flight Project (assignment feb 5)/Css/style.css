@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+
+.logo {
+  padding: 1em;
+  height: 70px;
+}
+
+span {
+  color: white;
+  height: 80px;
+
+  position: relative;
+  top: 25px;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 1em;
+  margin: 0.5em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-style {
+  float: right;
+  position: absolute;
+  right: 50px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 1em;
+  padding: 1em;
+  background: purple;
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+body {
+  background: url("../images/3152.jpg");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.paragraph-style {
+  font-size: 4rem;
+  color: white;
+  font-weight: bolder;
+}
+p {
+  clear: left;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
+.main-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40px;
+}
+
+.btn-1 {
+  display: flex;
+  cursor: pointer;
+  margin: 1em;
+  padding: 1em;
+  background: purple;
+  color: white;
+  font-weight: bolder;
+
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  text-align: center;
+}
