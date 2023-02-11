@@ -1,0 +1,130 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  position: relative;
+  top: 14px;
+  padding-left: 1em;
+  margin-left: 0.2em;
+}
+
+.navbar {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 1em;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.search-container {
+  display: flex;
+  margin-left: 20px;
+}
+form {
+  display: flex;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  border-radius: 25px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  width: 50%;
+  height: 100%;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  margin-top: 2em;
+  padding-left: 2.5em;
+  font-size: 1rem;
+  text-align: justify;
+}
+span {
+  color: #4caf50;
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+.image-style {
+  text-align: center;
+  height: 50%;
+  width: 25%;
+}
+.image-style img {
+  height: auto;
+  width: 50%;
+}
+footer {
+  position: relative;
+  height: 280px;
+  display: flex;flex-direction: column;
+}
+.item {
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+ 
+}
+
+footer div ul {
+  position: relative;
+  top: 15px;
+  display: flex;
+ 
+
+}
+footer li {
+    cursor: pointer;
+ 
+  list-style: none;
+  padding: 1em;
+}
+.icon{
+    position: absolute;
+    right: 100px;
+ 
+    top: 230px;
+}
+@media(max-with:600px){
+.image-styl img{
+        flex-direction: row;
+        display: none;
+    }
+}
